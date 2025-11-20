@@ -22,7 +22,7 @@ h2 {
 font-family: Ariel;
 }
 
-header {
+.header {
     display: grid;
     position: sticky;
     grid-template-areas: 
@@ -39,7 +39,7 @@ header {
 .logo {
     display: grid;
     position: fixed;
-    width: 45%;
+    max-width: 45%;
     height: auto;
     top: 0;
     left: 52%;
