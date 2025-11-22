@@ -67,9 +67,10 @@ header {
     grid-row: 1 / 2;
     font-family: Helvetica;
     font-weight: bold;
+    place-items: center;
 }
 .tel {
-    font-size: clamp(0.500rem, calc(0.192rem + 1.538vw), 2.500rem);
+    font-size: clamp(0.750rem, calc(0.625rem + 0.625vw), 2.375rem);
 }
 
 .mot-logo {
@@ -103,25 +104,25 @@ main {
 }
 .subhead-one {
     font-family: Helvetica;
-    font-size: clamp(0.500rem, calc(0.192rem + 1.538vw), 2.500rem);
+    font-size: clamp(0.875rem, calc(0.769rem + 0.529vw), 2.250rem);
     color: rgb(52, 120, 188);
     padding-bottom: 4px;
 }
 .subhead-four {
     font-family: Helvetica;
-    font-size: clamp(0.500rem, calc(0.192rem + 1.538vw), 2.500rem);
+    font-size: clamp(0.875rem, calc(0.769rem + 0.529vw), 2.250rem);
     color: rgb(18, 125, 18);
     padding-bottom: 4px;
 }
 .subhead-two {
     font-family: Helvetica;
-    font-size: clamp(0.500rem, calc(0.192rem + 1.538vw), 2.500rem);
+    font-size: clamp(0.875rem, calc(0.769rem + 0.529vw), 2.250rem);
     color: rgb(255, 132, 0);
     padding-bottom: 4px;
 }
 .subhead-three {
     font-family: Helvetica;
-    font-size: clamp(0.500rem, calc(0.192rem + 1.538vw), 2.500rem);
+    font-size: clamp(0.875rem, calc(0.769rem + 0.529vw), 2.250rem);
     color: rgb(255, 0, 0);
     padding-bottom: 4px;
 }
@@ -129,7 +130,7 @@ main {
 p {
     font-family: Arial;
     color: #444;
-    font-size: clamp(0.625rem, calc(0.519rem + 0.529vw), 2.000rem);
+    font-size: clamp(0.750rem, calc(0.654rem + 0.481vw), 2.000rem);
     padding-bottom: 10px;
 }
 
@@ -157,7 +158,7 @@ footer {
     grid-area: times;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    font-size: clamp(0.625rem, calc(0.519rem + 0.529vw), 2.000rem);
+    font-size: clamp(0.875rem, calc(0.769rem + 0.529vw), 2.250rem);
     color: #444;
     padding: 10px;
 }
@@ -173,7 +174,7 @@ footer {
     grid-area: address;
     grid-column: 3 / 4;
     grid-row: 1 / 2;
-    font-size: clamp(0.625rem, calc(0.519rem + 0.529vw), 2.000rem);
+    font-size: clamp(0.875rem, calc(0.769rem + 0.529vw), 2.250rem);
     color: #444;
 }
 
@@ -192,9 +193,10 @@ footer {
 @media (max-width: 768px) {
     header {
         width: 100%;
-        height: 4rem;
-        border-bottom: 1px solid #777;
+        height: 5rem;
+        border-bottom: 0.5px solid #777;
 }
+
 
     main {
         grid-template-columns: 1fr;
