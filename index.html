@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap"
       rel="stylesheet"
     />
+    <script src="/script.js" defer></script>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
     </style>
@@ -31,10 +32,10 @@
         <a href="tel:01382889942" class="tel">01382 889942</a>
       </div>
       <div class="weather">
-        <div class="location"></div>
-        <div class="day-of-week"></div>
-        <div class="temperature"></div>
-        <div class="weather-icon">😊</div>
+        <!--<div class="location"></div>-->
+        <div id="dvCurrDate" class="weather__day"></div>
+        <div class="weather__temp"><span id="dvCurrTemp"></span>&deg;</div>
+        <!--<div id="dvCurrIcon" class="weather__icon"></div>-->
       </div>
     </section>
 
